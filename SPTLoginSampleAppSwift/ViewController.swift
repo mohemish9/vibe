@@ -2,7 +2,7 @@ import UIKit
 
 class ViewController: UIViewController, SPTSessionManagerDelegate, SPTAppRemoteDelegate, SPTAppRemotePlayerStateDelegate {
 
-    fileprivate let SpotifyClientID = "044b2c45e77f45aca8da89e338849b6a"
+    fileprivate let SpotifyClientID = "28b3411f17d54ad7b68516948ed06265"
     fileprivate let SpotifyRedirectURI = URL(string: "spotify-login-sdk-test-app://spotify-login-callback")!
 
     lazy var configuration: SPTConfiguration = {
