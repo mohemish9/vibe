@@ -13,6 +13,7 @@
 		54AC7EE720081243008CD692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AC7EE620081243008CD692 /* Assets.xcassets */; };
 		54AC7EEA20081243008CD692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AC7EE820081243008CD692 /* LaunchScreen.storyboard */; };
 		54BDA67A200E8A74005E72F1 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BDA679200E8A74005E72F1 /* ConnectButton.swift */; };
+		818E133C235550190039C2E3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818E133B235550190039C2E3 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		54AC7EE920081243008CD692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54AC7EEB20081243008CD692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54BDA679200E8A74005E72F1 /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		818E133B235550190039C2E3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				54AC7EDF20081243008CD692 /* AppDelegate.swift */,
 				54BDA679200E8A74005E72F1 /* ConnectButton.swift */,
 				54AC7EE120081243008CD692 /* ViewController.swift */,
+				818E133B235550190039C2E3 /* UserInfo.swift */,
 				54AC7EE620081243008CD692 /* Assets.xcassets */,
 				54AC7EE820081243008CD692 /* LaunchScreen.storyboard */,
 				54AC7EEB20081243008CD692 /* Info.plist */,
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818E133C235550190039C2E3 /* UserInfo.swift in Sources */,
 				54BDA67A200E8A74005E72F1 /* ConnectButton.swift in Sources */,
 				54AC7EE220081243008CD692 /* ViewController.swift in Sources */,
 				54AC7EE020081243008CD692 /* AppDelegate.swift in Sources */,
