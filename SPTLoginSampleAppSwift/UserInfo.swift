@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserInfo: SPTAppRemoteUserAPI {
+class UserInfo: SPTAppRemoteUserAPI{
     var delegate: SPTAppRemoteUserAPIDelegate?
     
     func fetchCapabilities(callback: SPTAppRemoteCallback? = nil) {
@@ -20,7 +20,7 @@ class UserInfo: SPTAppRemoteUserAPI {
     }
     
     func unsubscribe(toCapabilityChanges callback: SPTAppRemoteCallback? = nil) {
-        
+        <#code#>
     }
     
     func fetchLibraryState(forURI URI: String, callback: @escaping SPTAppRemoteCallback) {
@@ -80,6 +80,6 @@ class UserInfo: SPTAppRemoteUserAPI {
     }
     
     var description: String = ""
-
+    
+    
 }
-

@@ -13,6 +13,9 @@
 		54AC7EE720081243008CD692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AC7EE620081243008CD692 /* Assets.xcassets */; };
 		54AC7EEA20081243008CD692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AC7EE820081243008CD692 /* LaunchScreen.storyboard */; };
 		54BDA67A200E8A74005E72F1 /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BDA679200E8A74005E72F1 /* ConnectButton.swift */; };
+		817C93CE23556A8A009CDD5B /* SurveyTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C93CD23556A8A009CDD5B /* SurveyTemplate.swift */; };
+		817C93D023556E85009CDD5B /* ChoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C93CF23556E85009CDD5B /* ChoiceButton.swift */; };
+		817C93D2235570CD009CDD5B /* arrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817C93D1235570CD009CDD5B /* arrowButton.swift */; };
 		818E133C235550190039C2E3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818E133B235550190039C2E3 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		54AC7EE920081243008CD692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54AC7EEB20081243008CD692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54BDA679200E8A74005E72F1 /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		817C93CD23556A8A009CDD5B /* SurveyTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTemplate.swift; sourceTree = "<group>"; };
+		817C93CF23556E85009CDD5B /* ChoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceButton.swift; sourceTree = "<group>"; };
+		817C93D1235570CD009CDD5B /* arrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrowButton.swift; sourceTree = "<group>"; };
 		818E133B235550190039C2E3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +90,10 @@
 			children = (
 				54AC7EDF20081243008CD692 /* AppDelegate.swift */,
 				54BDA679200E8A74005E72F1 /* ConnectButton.swift */,
+				817C93CD23556A8A009CDD5B /* SurveyTemplate.swift */,
+				817C93D1235570CD009CDD5B /* arrowButton.swift */,
 				54AC7EE120081243008CD692 /* ViewController.swift */,
+				817C93CF23556E85009CDD5B /* ChoiceButton.swift */,
 				818E133B235550190039C2E3 /* UserInfo.swift */,
 				54AC7EE620081243008CD692 /* Assets.xcassets */,
 				54AC7EE820081243008CD692 /* LaunchScreen.storyboard */,
@@ -168,7 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				818E133C235550190039C2E3 /* UserInfo.swift in Sources */,
+				817C93CE23556A8A009CDD5B /* SurveyTemplate.swift in Sources */,
+				817C93D023556E85009CDD5B /* ChoiceButton.swift in Sources */,
 				54BDA67A200E8A74005E72F1 /* ConnectButton.swift in Sources */,
+				817C93D2235570CD009CDD5B /* arrowButton.swift in Sources */,
 				54AC7EE220081243008CD692 /* ViewController.swift in Sources */,
 				54AC7EE020081243008CD692 /* AppDelegate.swift in Sources */,
 			);
