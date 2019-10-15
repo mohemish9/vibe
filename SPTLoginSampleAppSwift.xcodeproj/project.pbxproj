@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3880647823561044002C2790 /* SpotifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3880647723561044002C2790 /* SpotifyAPI.swift */; };
 		541345A220D2A80300FD05F7 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541345A120D2A80300FD05F7 /* SpotifyiOS.framework */; };
 		54AC7EE020081243008CD692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC7EDF20081243008CD692 /* AppDelegate.swift */; };
 		54AC7EE220081243008CD692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC7EE120081243008CD692 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3880647723561044002C2790 /* SpotifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAPI.swift; sourceTree = "<group>"; };
 		5413459E20D1049200FD05F7 /* SPTLoginSampleAppSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPTLoginSampleAppSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		541345A120D2A80300FD05F7 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = ../../SpotifyiOS.framework; sourceTree = "<group>"; };
 		54AC7EDC20081243008CD692 /* SPTLoginSampleAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPTLoginSampleAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 				817C93CD23556A8A009CDD5B /* SurveyTemplate.swift */,
 				817C93D1235570CD009CDD5B /* arrowButton.swift */,
 				54AC7EE120081243008CD692 /* ViewController.swift */,
+				3880647723561044002C2790 /* SpotifyAPI.swift */,
 				817C93CF23556E85009CDD5B /* ChoiceButton.swift */,
 				818E133B235550190039C2E3 /* UserInfo.swift */,
 				54AC7EE620081243008CD692 /* Assets.xcassets */,
@@ -179,6 +182,7 @@
 				818E133C235550190039C2E3 /* UserInfo.swift in Sources */,
 				817C93CE23556A8A009CDD5B /* SurveyTemplate.swift in Sources */,
 				817C93D023556E85009CDD5B /* ChoiceButton.swift in Sources */,
+				3880647823561044002C2790 /* SpotifyAPI.swift in Sources */,
 				54BDA67A200E8A74005E72F1 /* ConnectButton.swift in Sources */,
 				817C93D2235570CD009CDD5B /* arrowButton.swift in Sources */,
 				54AC7EE220081243008CD692 /* ViewController.swift in Sources */,
