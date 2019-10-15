@@ -135,7 +135,7 @@ class Page4: UIViewController {
     }
 }
 
-// Asks user for the preferred genre
+// Page that asks a user for the preferred genre
 class Page5: UIViewController {
 
     fileprivate lazy var QuestionLabel: UILabel = {
@@ -151,12 +151,13 @@ class Page5: UIViewController {
     fileprivate lazy var RockChoice = ChoiceButton(title: "Rock")
     fileprivate lazy var EDMButton = ChoiceButton(title: "EDM")
     fileprivate lazy var NoPreferenceChoice = ChoiceButton(title: "No preference")
+    // Navigation buttons
     fileprivate lazy var BackButton = ArrowButton(title: "<")
     fileprivate lazy var NextButton = ArrowButton(title: ">")
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
-        
+        // Displays the buttons
         view.addSubview(PopChoice)
         view.addSubview(RapChoice)
         view.addSubview(RockChoice)
